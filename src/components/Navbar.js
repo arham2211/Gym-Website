@@ -42,7 +42,7 @@ export default function Navbar() {
             <ul className="navbar-nav ms-lg-5 me-auto mb-2 mb-lg-0 text-uppercase">
               <li className="nav-item">
                 <NavLink className="nav-link home" activeClassName="active" exact to="/home">
-                  Home
+                  Hom
                 </NavLink>
               </li>
               <li className="nav-item">
