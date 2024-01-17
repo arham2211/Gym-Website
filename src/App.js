@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Redirect, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Redirect, Route } from "react-router-dom";
 import './components/Navbar.css'
 import './components/Banner.css'
 import './components/GymClass.css'
@@ -29,7 +29,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Gym-Website"> 
       <Navbar />
 
       <Switch>
