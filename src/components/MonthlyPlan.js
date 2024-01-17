@@ -13,7 +13,7 @@ export default function MonthlyPlan() {
                 </div>
 
                 <div className="row justify-content-center">
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-8">
 
                         <div className="ps-item text-center mb-4">
                             <h3 className='mb-4'>Class drop-in</h3>
@@ -32,7 +32,7 @@ export default function MonthlyPlan() {
                             <Link to="/home" className="btn text-white rounded-0 d-block text-decoration-none">Enroll now</Link>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-8">
                         <div className="ps-item text-center mb-4">
                             <h3 className='mb-4'>12 Month unlimited</h3>
                             <div className="pi-price mb-4">
@@ -50,7 +50,7 @@ export default function MonthlyPlan() {
                             <Link to="/home" className="btn text-white rounded-0 d-block text-decoration-none">Enroll now</Link>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-8">
                         <div className="ps-item text-center mb-4">
                             <h3 className='mb-4'>6 Month unlimited</h3>
                             <div className="pi-price mb-4">

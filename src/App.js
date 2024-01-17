@@ -16,6 +16,8 @@ import './components/Features.css'
 import './components/Services.css'
 import './components/Contact.css'
 
+import './responsive.css'
+
 import Navbar from './components/Navbar';
 import HomeNav from "./routes/HomeNav";
 import AboutNav from "./routes/AboutNav";

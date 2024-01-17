@@ -29,7 +29,8 @@
 }
 
 .bmi h4.text-primary {
-    color: red !important;
+   
+    color: #e31c25 !important;
     font-family: 'Roboto', sans-serif !important;
     font-weight: bolder;
     letter-spacing: -1px;

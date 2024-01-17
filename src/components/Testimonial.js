@@ -5,16 +5,16 @@ import testimonial3 from '../assets/image/testimonial-3.jpg'
 
 export default function Testimonial() {
 
-const myStyle={
+    const myStyle = {
 
-    minHeight: '450px'
+        minHeight: '450px'
 
-};
+    };
 
     return (
-        <div id="testimonial" className="container-fluid position-relative my-5">
-            <div className="container">
-                <div className="row px-3 align-items-center">
+        <div id="testimonial" className="container-fluid-lg position-relative my-5">
+            <div className="container-lg">
+                <div className="row px-lg-3 align-items-center">
                     <div className="col-md-6 bg-secondary">
                         <div className="d-flex align-items-center px-3" style={myStyle}>
                             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -67,7 +67,7 @@ const myStyle={
                     <div className="col-md-6">
                         <div className="ps-md-3 d-none d-md-block">
                             <h4>Testimonial</h4>
-                            <h4 className="display-4 mb-4 text-white">What Our Clients Say?</h4>
+                            <h4 className="display-xl-4 display-5 mb-4 text-white">What Our Clients Say?</h4>
                             <p className="m-0 text-white">Vero elitr lorem magna justo magna justo at justo est ipsum sed clita lorem dolor ipsum sed. Lorem sea lorem vero. Sanct dolor clita clita rebum kasd magna erat diam</p>
                         </div>
                     </div>

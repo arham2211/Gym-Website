@@ -5,7 +5,7 @@ export default function PageHeader(props) {
 
   const myStyle = {
 
-    minHeight:'400px'
+    minHeight: '400px'
 
   };
   return (

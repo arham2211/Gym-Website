@@ -10,7 +10,7 @@ export default function Contact() {
     return (
         <div id="contact" className='container'>
             <div className="row">
-                <div className="col-lg-6">
+                <div className="col-md-6 mb-md-0 mb-5">
                     <div>
                         <h4>CONTACT US</h4>
                         <h2 className='display-5 mb-4'>GET IN TOUCH</h2>
@@ -47,7 +47,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className="col-lg-6">
+                <div className="col-md-6">
                     <form action="/action_page.php">
                         <div className="mb-3 mt-3">
 
