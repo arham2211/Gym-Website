@@ -17,7 +17,7 @@ export default function Navbar() {
     <div id="navBar" className="position-absolute">
       <nav className="navbar bg-dark-lg navbar-expand-lg">
         <div className="container-fluid">
-          <Link id="gym" to="/home" className="navbar-brand mx-lg-5 mx-4 mt-1">
+          <Link id="gym" to="/" className="navbar-brand mx-lg-5 mx-4 mt-1">
             <h1 className="m-0 display-2 font-weight-bold text-uppercase text-white">
               gy<span style={redStyle}>m</span>
               <i className="fa-solid fa-dumbbell" style={redStyle}></i>
@@ -42,7 +42,7 @@ export default function Navbar() {
             <ul className="navbar-nav ms-lg-5 me-auto mb-2 mb-lg-0 text-uppercase">
               <li className="nav-item">
                 <NavLink className="nav-link home" activeClassName="active" exact to="/">
-                  Hom
+                  Home
                 </NavLink>
               </li>
               <li className="nav-item">

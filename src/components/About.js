@@ -26,7 +26,7 @@ export default function About() {
                     </div>
                     <div className='text-sm-start text-center'>
 
-                    <Link to="/home" className="btn btn-lg px-4">Learn More</Link>
+                    <Link to="/" className="btn btn-lg px-4">Learn More</Link>
                     </div>
                 </div>
             </div>

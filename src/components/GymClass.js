@@ -13,7 +13,7 @@ export default function GymClass() {
                             Lorem justo tempor sit aliquyam invidunt, amet vero ea dolor ipsum ut diam sit dolores, dolor
                             sit eos sea sanctus erat lorem nonumy sanctus takimata. Kasd amet sit sadipscing at..
                         </p>
-                        <Link to="/home" className="btn btn-lg btn-outline-light mt-4 px-4 rounded-0">Join Now</Link>
+                        <Link to="/" className="btn btn-lg btn-outline-light mt-4 px-4 rounded-0">Join Now</Link>
                     </div>
                 </div>
                 <div className="col-md-6 p-0">
@@ -24,7 +24,7 @@ export default function GymClass() {
                             Lorem justo tempor sit aliquyam invidunt, amet vero ea dolor ipsum ut diam sit dolores, dolor
                             sit eos sea sanctus erat lorem nonumy sanctus takimata. Kasd amet sit sadipscing at..
                         </p>
-                        <Link to="/home" className="btn btn-lg btn-outline-light mt-4 px-4 rounded-0">Join Now</Link>
+                        <Link to="/" className="btn btn-lg btn-outline-light mt-4 px-4 rounded-0">Join Now</Link>
                     </div>
                 </div>
             </div>

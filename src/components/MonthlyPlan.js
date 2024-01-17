@@ -29,7 +29,7 @@ export default function MonthlyPlan() {
                                 <li>No time restriction</li>
                                 <li>Monthly Something</li>
                             </ul>
-                            <Link to="/home" className="btn text-white rounded-0 d-block text-decoration-none">Enroll now</Link>
+                            <Link to="/" className="btn text-white rounded-0 d-block text-decoration-none">Enroll now</Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-8">
@@ -47,7 +47,7 @@ export default function MonthlyPlan() {
                                 <li>No time restriction</li>
                                 <li>Monthly Something</li>
                             </ul>
-                            <Link to="/home" className="btn text-white rounded-0 d-block text-decoration-none">Enroll now</Link>
+                            <Link to="/" className="btn text-white rounded-0 d-block text-decoration-none">Enroll now</Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-8">
@@ -65,7 +65,7 @@ export default function MonthlyPlan() {
                                 <li>No time restriction</li>
                                 <li>Monthly Something</li>
                             </ul>
-                            <Link to="/home" className="btn text-white rounded-0 d-block text-decoration-none">Enroll now</Link>
+                            <Link to="/" className="btn text-white rounded-0 d-block text-decoration-none">Enroll now</Link>
                         </div>
                     </div>
                 </div>

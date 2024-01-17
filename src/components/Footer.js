@@ -42,7 +42,7 @@ export default function Footer() {
                     <div className="footer-info col-lg-3 col-sm-6 mb-5">
                         <h4 className="mb-4">Quick Links</h4>
                         <div className="d-flex flex-column justify-content-start link">
-                            <Link className="text-white text-decoration-none mb-2" to="/home"><i className="fa fa-angle-right me-2"></i>Home</Link>
+                            <Link className="text-white text-decoration-none mb-2" to="/"><i className="fa fa-angle-right me-2"></i>Home</Link>
                             <Link className="text-white text-decoration-none mb-2" to="/about"><i className="fa fa-angle-right me-2"></i>About Us</Link>
                             <Link className="text-white text-decoration-none mb-2" to="/features"><i className="fa fa-angle-right me-2"></i>Our Features</Link>
                             <Link className="text-white text-decoration-none" to="/contact"><i className="fa fa-angle-right me-2"></i>Contact Us</Link>
@@ -51,9 +51,9 @@ export default function Footer() {
                     <div className="footer-wrap col-lg-3 col-sm-6 mb-5 ps-sm-5 ps-lg-0">
                         <h4 className="mb-4">Social Links</h4>
                         <div className="d-flex justify-content-start flex-column gap-2 ps-3 ms-sm-4">
-                            <Link className="btn btn-outline-light rounded-circle text-center me-2 px-0" style={round} to="/home"><i className="fab fa-twitter"></i></Link>
-                            <Link className="btn btn-outline-light rounded-circle text-center me-2 px-0" style={round} to="/home"><i className="fab fa-facebook-f"></i></Link>
-                            <Link className="btn btn-outline-light rounded-circle text-center me-2 px-0" style={round} to="/home"><i className="fab fa-instagram"></i></Link>
+                            <Link className="btn btn-outline-light rounded-circle text-center me-2 px-0" style={round} to="/"><i className="fab fa-twitter"></i></Link>
+                            <Link className="btn btn-outline-light rounded-circle text-center me-2 px-0" style={round} to="/"><i className="fab fa-facebook-f"></i></Link>
+                            <Link className="btn btn-outline-light rounded-circle text-center me-2 px-0" style={round} to="/"><i className="fab fa-instagram"></i></Link>
                         </div>
                     </div>
                     <div className="footer-info col-lg-3 col-sm-6 mb-5">
@@ -66,8 +66,8 @@ export default function Footer() {
                 </div>
                 <div className="container border-top border-dark pt-5">
                     <p className="m-0 text-center text-white">
-                        &copy; <Link className="text-white fw-bold text-decoration-none" to="/home">Your Site Name</Link>. All Rights Reserved. Designed by
-                        <Link className="text-white fw-bold text-decoration-none" to="/home"> Arham Affan</Link>
+                        &copy; <Link className="text-white fw-bold text-decoration-none" to="/">Your Site Name</Link>. All Rights Reserved. Designed by
+                        <Link className="text-white fw-bold text-decoration-none" to="/"> Arham Affan</Link>
                     </p>
                 </div>
             </div>
