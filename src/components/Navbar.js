@@ -41,8 +41,8 @@ export default function Navbar() {
           <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarSupportedContent">
             <ul className="navbar-nav ms-lg-5 me-auto mb-2 mb-lg-0 text-uppercase">
               <li className="nav-item">
-                <NavLink className="nav-link home" activeClassName="active" exact to="/home">
-                  Hom
+                <NavLink className="nav-link home" activeClassName="active" exact to="/">
+                  Home
                 </NavLink>
               </li>
               <li className="nav-item">

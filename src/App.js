@@ -34,8 +34,8 @@ function App() {
 
       <Switch>
 
-        <Route exact path="/home" component={HomeNav}></Route>
-        <Redirect exact from="/Gym-Website/" to="/home" />
+        <Route exact path="/" component={HomeNav}></Route>
+        {/* <Redirect exact from="/Gym-Website/" to="/home" /> */}
         <Route exact path="/about" component={AboutNav}></Route>
         <Route exact path="/features" component={FeaturesNav}></Route>
         <Route exact path="/contact" component={ContactNav}></Route>
